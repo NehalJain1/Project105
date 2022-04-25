@@ -1,0 +1,47 @@
+#Father {
+    border: 1px solid black;
+    background-color: aquamarine;
+    height: 30px;
+    font-size: large;
+}
+#Mother {
+    border: 1px solid black;
+    background-color: aquamarine;
+    height: 30px;
+    font-size: large;
+}
+#Sister {
+    border: 1px solid black;
+    background-color: aquamarine;
+    height: 30px;
+    font-size: large;
+}
+#Me {
+    border: 1px solid black;
+    background-color: aquamarine;
+    height: 30px;
+    font-size: large;
+}
+body {
+    background-color: #41d9a4;   
+}
+#btn1 {
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    background-color: aquamarine;
+}
+#btn2 {
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    background-color: aquamarine;
+}
+
+#webcam , #output{
+    border: 3px dashed black;
+    height: 300px;
+    width: 400px;
+}

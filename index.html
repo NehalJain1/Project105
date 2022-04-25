@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>face Recognition App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<center>
+    <h1>FACE RECOGNITION WEB APP</h1>
+    <br><br><br>
+   <h4> Model is trained for the following colours: </h4>
+    <br>
+    <br>
+
+    <div id="Father">
+     Red
+    </div>
+    <br>
+    <div id="Mother">
+     Yellow
+    </div>
+    <br>
+    <div id="Sister">
+    Blue
+    </div>
+    <br>
+    <div id="Me">
+    Green
+    </div>
+
+    <label>Webcam View - </label>
+    <div id="webcam">
+    </div>
+    <br><br>
+    <br>
+<div id="output"></div>
+    <br><br>
+<button  id="btn1" onclick="clickImg()">Capture Image</button>
+    <br><br>
+    <button id="btn2" onclick="IdentifyObj()">Show Result</button>
+    <br><br> <br><br>
+
+    
+    <p style="font-size: 22px;">Object : <span id="object">
+
+    </span>
+  </p>
+  <br>
+
+    <p style="font-size: 22px;">Accuracy :  <span id="accuracy">
+
+    </span>
+  </p>
+</center>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
